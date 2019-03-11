@@ -35,7 +35,6 @@ public class TestBase {
 					+ "java\\com\\crm\\qa\\config\\config.properties");
 			prop.load(ip);
 			log.info("Loaded Prop Info");
-			//log.debug("Loaded Prop Debug");
 		}
 		catch(FileNotFoundException e){
 			e.printStackTrace();
